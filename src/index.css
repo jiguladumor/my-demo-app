@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,h2,h3{
+  margin: 0.5rem 0 ;
+}
+
+h2{
+  font-size: 10px;
+}
+h3{
+  font-size: 8px;
+}
+.row{
+  display:  flex;
+  justify-content: center;
+
+}
+.col-1{
+  flex:1
+}
+.col-2{
+  flex:2
+}
+.blog{
+  background-color: lightblue ;
+  padding:  2px;
+  border-radius: 2px;
+}
+
+.row.center{
+  align-items: center;
 }
